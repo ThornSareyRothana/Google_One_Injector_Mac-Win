@@ -1,0 +1,18 @@
+# Local Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local backups and macOS metadata
+*.bak
+.DS_Store
+
+# Keep compressed Frida archives; extracted binaries are generated locally.
+/assets/frida-server-*
+!/assets/frida-server-*.xz
+
+# Automatically downloaded Android platform tools
+/bin/
+/platform-tools/
+/platform-tools.zip
